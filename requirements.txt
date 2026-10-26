@@ -1,0 +1,11 @@
+# Use Python 3.10. FFmpeg must also be installed on the system.
+# torch is pinned because deepfilternet and resemble-enhance break on newer versions.
+torch==2.1.1
+torchaudio==2.1.1
+numpy<2
+scipy
+soundfile
+flask
+deepfilternet
+speechbrain
+resemble-enhance
